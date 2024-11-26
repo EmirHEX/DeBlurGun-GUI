@@ -61,3 +61,65 @@ DeblurGANv2-StudentProject/
 │   └── sample_blur.jpg   
 ├── requirements.txt      # Dependencies required to run the project.
 └── README.md             # Project documentation.
+```
+## 🚀 Getting Started
+
+### 1. Installation
+
+#### Prerequisites:
+- Python 3.8 or later
+- pip (Python package manager)
+
+#### Steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/DeblurGANv2-StudentProject.git
+   cd DeblurGANv2-StudentProject
+   ```
+   
+2. Install dependencies:
+  ```bash
+pip install -r requirements.txt
+  ```
+
+### 2. Usage
+Training the Model:
+Make sure the GoPro Large Dataset is correctly organized:
+
+```plaintext
+GOPRO_Large/
+├── train/
+├── test/
+```
+Run the training script:
+
+```bash
+python train.py
+```
+Testing with GUI:
+Start the GUI by running:
+```bash
+python main.py
+```
+
+Click "Load Image" to select a blurry image. The processed sharp image will be saved in the `output/` folder.
+
+## 🔧 How It Works
+Dataset Preprocessing: The dataset is preprocessed into tensor batches, resized, and normalized.
+Training Pipeline: The generator learns to minimize the perceptual loss while the discriminator ensures realistic results.
+Inference: The pre-trained model restores sharpness to blurry inputs by mapping the blurry images to the sharp domain.
+👩‍💻 For Students
+This project demonstrates key concepts in:
+
+Generative Adversarial Networks (GANs): Understanding generator-discriminator interplay.
+Image Processing: Restoration of degraded images using neural networks.
+Deep Learning Training: Customizing loss functions and optimizers for specific tasks.
+Python GUI Development: Using Tkinter to create interactive tools.
+## 💡 Contribution
+The code comments and main architecture have been compiled with support from various AI applications and research, ensuring a solid foundation and well-structured implementation. Feel free to explore and contribute!
+
+
+## 📜 License
+This project is for educational purposes only and uses parts of the DeblurGAN v2 architecture.
+   
+
