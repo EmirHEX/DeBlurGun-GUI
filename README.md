@@ -1,4 +1,4 @@
-# **DeblurGAN v2 - Academic Project**
+# **DeblurGan V2 (GUN) GUI - Academic Project**
 
 🎓 **A Student-Friendly Implementation of Image Deblurring with DeblurGAN v2**
 
