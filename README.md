@@ -73,7 +73,7 @@ DeblurGANv2-StudentProject/
 #### Steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/DeblurGANv2-StudentProject.git
+   git clone hhttps://github.com/EmirHEX/DeBlurGun-GUI.git
    cd DeblurGANv2-StudentProject
    ```
    
