@@ -74,7 +74,7 @@ DeblurGANv2-StudentProject/
 1. Clone the repository:
    ```bash
    git clone hhttps://github.com/EmirHEX/DeBlurGun-GUI.git
-   cd DeblurGANv2-StudentProject
+   cd DeBlurGun-GUI
    ```
    
 2. Install dependencies:
