@@ -1,5 +1,7 @@
 # **DeblurGan V2 (GUN) GUI - Academic Project**
+## **CLICK AND WATCH THE INSTALLATION VIDEO**
 [![Watch the video](https://img.youtube.com/vi/vbnq3FjRB9w/maxresdefault.jpg)](https://youtu.be/vbnq3FjRB9w)
+
 🎓 **A Student-Friendly Implementation of Image Deblurring with DeblurGAN v2**
 
 This project is an **educational implementation** of **DeblurGAN v2**, designed for university students and researchers interested in **image processing**, **deep learning**, and **GAN-based architectures**. It includes simplified training and testing pipelines for learning and experimenting with deblurring techniques on images.
